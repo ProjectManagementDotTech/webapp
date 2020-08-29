@@ -7,7 +7,7 @@ module.exports = {
 		extend: {},
 		fontFamily: {
 			"sans": '"Work Sans", sans-serif',
-			"cursive": '"Pacifico", cursive,'
+			"cursive": '"Pacifico", cursive',
 		}
 	},
 	variants: {},

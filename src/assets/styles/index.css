@@ -3,3 +3,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    @apply font-sans leading-normal text-gray-700;
+}
+
+/*
+ * Buttons
+ */
+.btn {
+    @apply border font-medium p-4 rounded-md
+}
+.btn-call-to-action {
+    @apply bg-indigo-500 border-indigo-700 text-gray-100;
+}
+.btn-call-to-action:focus, .btn-call-to-action:hover {
+    @apply bg-indigo-600 border-indigo-800;
+}
+.btn-call-to-action-2 {
+    @apply bg-green-400 border-green-600;
+}
+.btn-call-to-action-2:focus, .btn-call-to-action-2:hover {
+    @apply bg-green-500 border-green-700
+}
+/*
+ * Flex row
+ */
+.row {
+    @apply flex flex-wrap w-full;
+}
